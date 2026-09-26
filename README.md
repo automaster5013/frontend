@@ -4,6 +4,8 @@ A small introductory HTML exercise for learning page structure and navigation be
 
 This repository captures an early learning stage. It is not a finished portfolio site or a production-ready frontend application.
 
+**Live site:** [automaster5013.github.io/frontend](https://automaster5013.github.io/frontend/)
+
 ## Files
 
 | File | Current purpose |
@@ -45,7 +47,7 @@ It checks language and viewport metadata, page titles, main landmarks, H1 cardin
 ## Current scope
 
 - The Blog intentionally remains an accessible empty state until the first real learning post is written.
-- The site has no JavaScript, framework, package dependency, form, backend, analytics, or production deployment.
+- The site is deployed from the `main` branch with GitHub Pages. It has no JavaScript, framework, package dependency, form, backend, or analytics.
 - Automated validation covers document contracts and local links; keyboard navigation and visual layout still require browser review.
 
 ## Scope
