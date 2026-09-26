@@ -1,19 +1,37 @@
-<!DOCTYPE html>
-<html>
-    <head>
-        <title>Blog</title>
-    </head>
-    <style>
-        nav {background-color: darkgreen; front-size: 150%; text-align: left;}
-        nav a {color: gold}
-    </style>
-    <body>
-        <nav>
-            <a href="./index.html">Home</a>
-            <a href="./blog_list.html">Blog</a>
-            <a href="./about_me.html">About Me</a>
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Frontend HTML Practice의 학습 기록 페이지입니다.">
+    <title>Blog | Frontend HTML Practice</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="주요 메뉴">
+            <a class="brand" href="./index.html">HTML Practice</a>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./blog_list.html" aria-current="page">Blog</a></li>
+                <li><a href="./about_me.html">About Me</a></li>
+            </ul>
         </nav>
+    </header>
+
+    <main id="main-content" class="content-section narrow">
+        <p class="eyebrow">Learning log</p>
         <h1>Blog</h1>
-        <h2>아직 작성하지 않았습니다.</h2>
-    </body>
+        <article class="card empty-state">
+            <p class="status" role="status">첫 번째 글을 준비하고 있습니다.</p>
+            <p>이 페이지에는 HTML 문서 구조와 CSS 학습 과정이 기록될 예정입니다.</p>
+            <a class="text-link" href="./index.html">홈에서 학습 목표 확인하기</a>
+        </article>
+    </main>
+
+    <footer>
+        <p>Frontend HTML Practice · 학습용 정적 사이트</p>
+    </footer>
+</body>
 </html>

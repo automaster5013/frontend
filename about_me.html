@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="ko">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Frontend HTML Practice 저장소와 학습 범위를 소개합니다.">
+    <title>About Me | Frontend HTML Practice</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+<body>
+    <a class="skip-link" href="#main-content">본문으로 건너뛰기</a>
+    <header class="site-header">
+        <nav class="site-nav" aria-label="주요 메뉴">
+            <a class="brand" href="./index.html">HTML Practice</a>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./blog_list.html">Blog</a></li>
+                <li><a href="./about_me.html" aria-current="page">About Me</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main id="main-content" class="content-section narrow">
+        <p class="eyebrow">About this project</p>
+        <h1>작은 페이지에서 웹의 기본을 배웁니다.</h1>
+        <p class="lead">이 저장소는 프레임워크 없이 HTML과 CSS가 브라우저에서 어떻게 동작하는지 확인하기 위한 학습 기록입니다.</p>
+
+        <section aria-labelledby="practice-title">
+            <h2 id="practice-title">연습하는 내용</h2>
+            <ul class="check-list">
+                <li>의미에 맞는 문서 구조와 하나의 명확한 페이지 제목</li>
+                <li>페이지 사이의 상대 경로와 현재 위치 표시</li>
+                <li>작은 화면에서도 읽을 수 있는 반응형 레이아웃</li>
+                <li>키보드 포커스와 본문 건너뛰기 링크</li>
+            </ul>
+        </section>
+
+        <section aria-labelledby="next-title">
+            <h2 id="next-title">다음 단계</h2>
+            <p>실제 학습 글을 추가하고 HTML 검증과 키보드 탐색 점검을 반복합니다.</p>
+            <a class="button" href="./blog_list.html">학습 기록 보기</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>Frontend HTML Practice · 학습용 정적 사이트</p>
+    </footer>
+</body>
+</html>
